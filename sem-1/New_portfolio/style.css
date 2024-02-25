@@ -1,0 +1,51 @@
+.violet-color{
+    color: #8845f4;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    height: 26px;
+}
+
+a{
+    border-radius: 100px;
+    background-color: #8845f4;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #6200ff;
+}
+
+img{
+    background-color: lightcyan;
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    border: 20px;
+
+}
+#content{
+    background-color: #6200ff;
+    width: 50%;
+    /* float: left;                                                                                                                              */
+    text-align: justify;
+    border: 20px;
+}
+
+
+#front_page{
+    display: flex;
+    padding: 1%;
+    background-color: aqua;
+    align-items: center;
+    border-width: 20px;
+}
+
+#lefti{
+    background-color: black;
+    border: 20px;
+}

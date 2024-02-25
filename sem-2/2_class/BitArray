@@ -1,0 +1,22 @@
+BitArray
+
+Operations
+
+set;
+void set(BitArray* array, int position);
+
+clear;
+void clear(BitArray* array, int position);
+
+toggle;
+void toggle(BitArray* array, int position);
+
+get;
+int get(const BitArray* array, int position);
+
+get_size;
+int get_size(const BitArray* array);
+
+count_set_bits;
+count_set_bits(const BitArray* array);
+

@@ -1,0 +1,93 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <limits.h>
+
+typedef unsigned int wholeNum;
+
+wholeNum get_zero(){
+    return 0;
+}
+
+bool is_zero(wholeNum x){
+    if (x == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+wholeNum add(wholeNum x,wholeNum y) {
+    if ( x + y < 0 ) {
+        return 0;
+    } else if ( x + y > INT_MAX ) {
+        return INT_MAX;
+    } else {
+        return x + y;
+    }
+}
+
+wholeNum subtract(wholeNum x, wholeNum y){
+    if ( x - y < 0) {
+        return 0;
+    } else if ( x - y > INT_MAX ){
+        return INT_MAX;       
+    } else {
+        return x - y;
+    } 
+}
+
+wholeNum divide(wholeNum x,wholeNum y) {
+    if ( (x || y) <= 0) {
+        return 0;
+    } else if ( x/y > INT_MAX ) {
+        return INT_MAX;
+    } else {
+        return x/y;
+    }
+}
+
+wholeNum successor(wholeNum x) {
+    if ( x + 1 < 0){
+        return 0;
+    } else if ( x + 1 > INT_MAX ) {
+        return INT_MAX;
+    } else {
+        return x + 1;
+    }
+}
+
+wholeNum predecessor(wholeNum x) {
+    if ( x - 1 < 0 ){
+        return 0;
+    } else if ( x - 1 > INT_MAX) {
+        return INT_MAX;
+    } else {
+        return x - 1;
+    }
+    
+}
+
+bool equal(wholeNum x, wholeNum y){
+    if (x == y){
+        return true;
+    } else {
+    return false;
+    }
+}
+
+int main(){
+    printf("true: 1; false: 0;\n");
+    wholeNum x;
+    scanf("%d", &x);
+    wholeNum y;
+    scanf("%d", &y);
+    printf("Get Zero: %d\n", get_zero());
+    printf("Is Zero: %d\n", is_zero(x));
+    printf("add (%d,%d): %d\n",x,y, add(x,y));
+    printf("subtract (%d,%d): %d\n",x,y, subtract(x,y));
+    printf("divide (%d,%d): %d\n",x,y, divide(x,y));
+    printf("successor (%d): %d\n",y, successor(y));
+    printf("predecessor (%d): %d\n",x, predecessor(x));
+    printf("equal (%d,%d): %d\n",x,y, equal(x,y));
+    return 0;
+}

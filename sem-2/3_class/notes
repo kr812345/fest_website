@@ -1,0 +1,54 @@
+Search Engine: ( informstion retriever (IR) ) 
+
+DOC --> info --> S.E.
+ ^                ^
+word/terms/  search Query
+keywords             
+
+
+minimal performance of app (Search engine here)
+
+Base assumption of an Algorithm ----[Data Structure]----> minimal performance of app (Search engine here)
+          ^
+  {single file } n files
+   (start  ->)  ( basically scanning each file)
+
+pehle hamari basic thinking ye thi ki agar google ek search krne par itne sare output results la rha h to kya wo har ek file/ doc ko scan krke
+hame shi result show krta h. 
+    par itna kam me hame itne sare results milte h to most probably ham galat soch rhe h and jo google process kr rha h wo kux or h.
+
+  T0 t1 t2 t3 ....... tn 
+d0[20][35][2][][][][5][3] 
+d1[15][21][][][][][][][ ]
+d2[][][][][][][][][][][]
+d3[][][][][][][][][][][]
+. [][][][][][][][][][][]
+.
+.
+.    
+dn[][][][][][][][][][][]
+
+Indexing
+SEO
+
+ADT
+1. value
+2. behaviour/operation
+
+real world ADT      Implimentation ADT
+ 2D matrix     -->   2D Array
+ TDM           -->   2D matrix
+ Search Engine Index --> TDM  ( term doc matrix )
+      ^ 
+Search Index ADT
+
+1. create TDM
+2. Update term frequency
+3. get doc freq
+4. get tot terms in doc
+5.  
+
+TDM ADT --> 2D Matrix ADT --> Sparse Matrix ADT
+
+
+
