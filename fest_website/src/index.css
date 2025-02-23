@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }}
+
+#welcome,#to{
+width: 689px;
+height: 147px;
+
+font-family: 'Amiri Quran';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 313px;
+
+color: #FFFFFF;
+}
+
+#scrollHta {
+  -webkit-scrollbar-width: none;  
+  scrollbar-width: none;  
+  -ms-overflow-style: none;  
+}
