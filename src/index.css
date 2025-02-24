@@ -6,6 +6,10 @@
       display: none;
     }}
 
+html{
+  scroll-behavior: smooth;
+}
+
 #welcome,#to{
 width: 689px;
 height: 147px;
@@ -17,6 +21,11 @@ font-size: 128px;
 line-height: 313px;
 
 color: #FFFFFF;
+}
+
+#gallery-head {
+  font-family: 'Amiri Quran';
+  font-style: normal;
 }
 
 #scrollHta {

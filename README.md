@@ -4,7 +4,11 @@ A dynamic festival website built with React and Vite.
 
 ## Demo Video
 
-https://github.com/user/fest_website/assets/website_record.mp4
+https://user-images.githubusercontent.com/assets/website_record.mp4
+
+https://raw.githubusercontent.com/user/fest_website/main/assets/website_record.mp4
+
+[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/user/fest_website/assets/website_record.mp4)
 
 ## Features
 
